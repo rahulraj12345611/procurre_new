@@ -316,7 +316,7 @@ export default function IndexPage() {
         <div className=" 2xl:h-28 w-full md:h-[525px] h-[200px]">
           <Carousel
             autoPlay={true}
-            autoFocus={true}
+            // autoFocus={true}
             interval={3000}
             className="md:h-[525px] h-150"
             infiniteLoop={true}
@@ -330,7 +330,7 @@ export default function IndexPage() {
                   <div className="w-full  md:h-[500px] h-[200px]" key={index}>
 
                     <Link
-                      target="_blank"
+                      // target="_blank"
                       href={`${items?.Link}`}
                       className=" "
                     >

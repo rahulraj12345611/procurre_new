@@ -38,7 +38,7 @@ const FooterFullwidth = () => (
       <div className="mt-4 mb-2 font-medium xl:mb-4">Support Us on Product Hunt</div>
       <div className="flex flex-col">
         <div className="mb-4">
-          <a href="https://www.producthunt.com/products/Apple?utm_source=badge-follow&utm_medium=badge&utm_souce=badge-Apple" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/follow.svg?post_id=100070&theme=light" alt="Apple - Think&#0032;Different | Product Hunt" style={{width: "250px", height: "54px"}} width="250" height="54" /></a>
+          <a href="https://www.producthunt.com/products/Apple?utm_source=badge-follow&utm_medium=badge&utm_souce=badge-Apple"><img src="https://api.producthunt.com/widgets/embed-image/v1/follow.svg?post_id=100070&theme=light" alt="Apple - Think&#0032;Different | Product Hunt" style={{width: "250px", height: "54px"}} width="250" height="54" /></a>
         </div>
       </div>
     </div>
