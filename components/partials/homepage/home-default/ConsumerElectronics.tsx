@@ -162,7 +162,6 @@ const CarouselCard = (props: any) => {
           <span style={{ fontSize: '0.6rem' }}>ADD TO CART</span>
         </Link>
         <Link href="/"
-          
           className="flex-1 rounded-md bg-green-500 p-2 text-center font-medium text-white hover:bg-green-600 focus:outline-none focus:ring-4 focus:ring-blue-300"
         >
           <span style={{ fontSize: '0.6rem' }}>BUY NOW</span>
