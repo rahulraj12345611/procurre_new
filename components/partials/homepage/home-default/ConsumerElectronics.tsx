@@ -72,9 +72,9 @@ const ConsumerElectornics = (props: any) => {
             
             {props?.data?.map((item: any, index: any) => {
                 return (
-                  <Link href={"/horoscope/daily-horoscope"}>
+                  // <Link href={"/"}>
                     <CarouselCard data={item}/>
-                  </Link>                
+                  // </Link>                
                 )
             })
             }
@@ -138,7 +138,7 @@ const CarouselCard = (props: any) => {
       </span>
     </Link>
     <div className="mt-4 px-5 pb-5">
-      <Link >
+      <Link href="">
         <h5 className="text-md tracking-tight text-slate-900">{item?.productName}</h5>
       </Link>
       <div className="mt-2 mb-5 flex items-center justify-between">
@@ -154,14 +154,14 @@ const CarouselCard = (props: any) => {
         </p>
       </div>
       <div className="flex space-x-2">
-        <Link
+        <Link href="/"
           
           className="flex-1 rounded-md bg-red-500 p-2 text-center font-medium text-white flex items-center justify-center space-x-2 hover:bg-red-600 focus:outline-none focus:ring-4 focus:ring-blue-300"
         >
           <FaShoppingCart className="text-base" size={10} />
           <span style={{ fontSize: '0.6rem' }}>ADD TO CART</span>
         </Link>
-        <Link
+        <Link href="/"
           
           className="flex-1 rounded-md bg-green-500 p-2 text-center font-medium text-white hover:bg-green-600 focus:outline-none focus:ring-4 focus:ring-blue-300"
         >
