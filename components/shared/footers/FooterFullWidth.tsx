@@ -15,10 +15,10 @@ const FooterFullwidth = () => (
       <div className="mt-4 mb-2 font-medium xl:mb-4">Guides</div>
       <nav aria-label="Guides Navigation" className="text-gray-500">
         <ul className="space-y-3">
-          <li><a className="hover:text-blue-600 hover:underline" href="#">How to make a footer</a></li>
-          <li><a className="hover:text-blue-600 hover:underline" href="#">Designing your app</a></li>
-          <li><a className="hover:text-blue-600 hover:underline" href="#">Getting help from the community</a></li>
-          <li><a className="hover:text-blue-600 hover:underline" href="#">Pricing vs Hourly Rate</a></li>
+          <li><a className="hover:text-blue-600 hover:underline" >How to make a footer</a></li>
+          <li><a className="hover:text-blue-600 hover:underline" >Designing your app</a></li>
+          <li><a className="hover:text-blue-600 hover:underline" >Getting help from the community</a></li>
+          <li><a className="hover:text-blue-600 hover:underline" >Pricing vs Hourly Rate</a></li>
         </ul>
       </nav>
     </div>
@@ -26,11 +26,11 @@ const FooterFullwidth = () => (
       <div className="mt-4 mb-2 font-medium xl:mb-4">Links</div>
       <nav aria-label="Footer Navigation" className="text-gray-500">
         <ul className="space-y-3">
-          <li><a className="hover:text-blue-600 hover:underline" href="#">Pricing</a></li>
-          <li><a className="hover:text-blue-600 hover:underline" href="#">Demo</a></li>
-          <li><a className="hover:text-blue-600 hover:underline" href="#">Press</a></li>
-          <li><a className="hover:text-blue-600 hover:underline" href="#">Support Hub</a></li>
-          <li><a className="hover:text-blue-600 hover:underline" href="#">Contact</a></li>
+          <li><a className="hover:text-blue-600 hover:underline" >Pricing</a></li>
+          <li><a className="hover:text-blue-600 hover:underline" >Demo</a></li>
+          <li><a className="hover:text-blue-600 hover:underline" >Press</a></li>
+          <li><a className="hover:text-blue-600 hover:underline" >Support Hub</a></li>
+          <li><a className="hover:text-blue-600 hover:underline" >Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -48,9 +48,9 @@ const FooterFullwidth = () => (
       <p className="">© 2022 Boleno | All Rights Reserved</p>
       <p className="-order-1 sm:order-none">Made with ❤️ Remotely</p>
       <p className="">
-        <a className="" href="#">Privacy Policy</a>
+        <a className="" >Privacy Policy</a>
         <span>|</span>
-        <a className="" href="#">Terms of Service</a>
+        <a className="" >Terms of Service</a>
       </p>
     </div>
   </div>

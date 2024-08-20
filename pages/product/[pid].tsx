@@ -71,14 +71,14 @@ const ProductDefaultPage = () => {
                       </div>
                       {/* <div className="flex space-x-2 py-3">
         <Link
-          href="#"
+          
           className="w-full flex-1 rounded-md bg-red-500 p-2 text-center font-medium text-white flex items-center justify-center space-x-2 hover:bg-red-600 focus:outline-none focus:ring-4 focus:ring-blue-300"
         >
           <FaShoppingCart className="text-base" size={10} />
           <span style={{ fontSize: '0.6rem' }}>ADD TO CART</span>
         </Link>
         <Link
-          href="#"
+          
           className="w-1/3 flex-1 rounded-md bg-green-500 p-2 text-center font-medium text-white hover:bg-green-600 focus:outline-none focus:ring-4 focus:ring-blue-300"
         >
           <span style={{ fontSize: '0.6rem' }}>BUY NOW</span>
