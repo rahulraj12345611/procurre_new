@@ -1,0 +1,7 @@
+{
+    "api": "https://api.procurre.com/api/",
+    "isProd":false,
+    "S3URL": " https://d1nzpxlojbu82y.cloudfront.net/"
+}
+
+
