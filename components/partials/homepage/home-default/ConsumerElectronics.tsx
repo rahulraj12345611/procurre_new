@@ -138,7 +138,7 @@ const CarouselCard = (props: any) => {
       </span>
     </Link>
     <div className="mt-4 px-5 pb-5">
-      <Link href="">
+      <Link href="/#">
         <h5 className="text-md tracking-tight text-slate-900">{item?.productName}</h5>
       </Link>
       <div className="mt-2 mb-5 flex items-center justify-between">

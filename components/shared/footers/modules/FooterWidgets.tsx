@@ -222,7 +222,7 @@
 //                                                 {/* <li><Link href="/page-detail/order-status" title="Track my order">Track my order</Link></li> */}
 //                                                 <li><Link href="/faq" title="FAQ’S">FAQ’S</Link></li>
 
-//                                                 <li><Link href="" title="Bulk Enquiry">
+//                                                 <li><Link href="/#" title="Bulk Enquiry">
 //                                                     <a onClick={(e) => handleClick()}>Bulk Enquiry</a>
 //                                                 </Link></li>
 //                                             </ul>
