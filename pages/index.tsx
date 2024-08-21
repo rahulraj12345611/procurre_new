@@ -359,8 +359,8 @@ export default function IndexPage() {
           </Carousel>
         </div>
     </div>
-    <CategorySection data={deals.collections}/>
-    <ConsumerElectornics data={featuredProducts} />
+    {/* <CategorySection data={deals.collections}/>
+    <ConsumerElectornics data={featuredProducts} /> */}
     {/* <HomeDefaultDealOfDay data={deals.collections} /> */}
     {/* <FooterFullwidth /> */}
     </>
