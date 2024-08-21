@@ -293,8 +293,8 @@
 //                             <div class="col-md-8"><p>Copyright &copy; 2023 The RR Group. All rights reserved.</p></div>
 //                             <div class="col-md-4 footer-content">
 //                                 <ul class="list-inline">
-//                                     {/* <li class="list-inline-item"><a href="/" title="Home">Home</a></li> */}
-//                                     {/* <li class="list-inline-item"><Link href="/" title="Home">Home</Link></li> */}
+//                                     {/* <li class="list-inline-item"><a href="/#" title="Home">Home</a></li> */}
+//                                     {/* <li class="list-inline-item"><Link href="/#" title="Home">Home</Link></li> */}
 //                                     {/* <li class="list-inline-item"><Link href="/contact" title="Contact">Contact</Link></li> */}
 //                                     {/* <li class="list-inline-item"><a href="/contact" title="Contact">Contact</a></li> */}
 //                                     <img src="/static/img/Payment-Option.svg" />
