@@ -1,9 +1,8 @@
 
 import type { AppProps } from "next/app";
 import { NextUIProvider } from "@nextui-org/system";
-import { ThemeProvider as NextThemesProvider } from "next-themes";
 import { useRouter } from "next/router";
-import { Provider, useDispatch, useSelector } from 'react-redux';
+import { Provider } from 'react-redux';
 import { combineReducers, configureStore } from "@reduxjs/toolkit";
 import storage from "redux-persist/lib/storage";
 import { fontSans, fontMono } from "@/config/fonts";
@@ -52,10 +51,8 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <NextUIProvider navigate={router.push}>
       <Provider store={store}>
-
       <Header  />
       {/* <NextThemesProvider> */}
-
         <Component {...pageProps} />
       {/* </NextThemesProvider> */}
       </Provider>
