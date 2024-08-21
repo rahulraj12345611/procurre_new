@@ -1,5 +1,4 @@
-import CommonReducer from "@/api/actionreducer/reducer/Common.reducer";
-import CustomerReducer from "@/api/actionreducer/reducer/Customer.reducer";
+
 import type { AppProps } from "next/app";
 import { NextUIProvider } from "@nextui-org/system";
 import { ThemeProvider as NextThemesProvider } from "next-themes";
@@ -9,6 +8,8 @@ import { combineReducers, configureStore } from "@reduxjs/toolkit";
 import storage from "redux-persist/lib/storage";
 import { fontSans, fontMono } from "@/config/fonts";
 import "@/styles/globals.css";
+import CommonReducer from "@/api/actionreducer/reducer/Common.reducer";
+import CustomerReducer from "@/api/actionreducer/reducer/Customer.reducer";
 import {
   persistReducer,
   persistStore,
